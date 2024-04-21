@@ -16,9 +16,9 @@
                     <thead>
                       <tr>
                         <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Book Title</th>
-                        <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Penerbit</th>
-                        <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Penulis</th>
-                        <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Stok Buku</th>
+                        <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Publisher</th>
+                        <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Writer</th>
+                        <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Stock</th>
                         <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Action</th>
                       </tr>
                     </thead>

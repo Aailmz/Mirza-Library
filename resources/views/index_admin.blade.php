@@ -20,9 +20,9 @@
                     <thead>
                       <tr>
                         <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Book Title</th>
-                        <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Penerbit</th>
-                        <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Penulis</th>
-                        <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Stok Buku</th>
+                        <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Publisher</th>
+                        <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Writer</th>
+                        <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Stock</th>
                         <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Action</th>
                       </tr>
                     </thead>
@@ -157,6 +157,22 @@
                     </div>
                   </div>
                   </div>
+                  <div id="profilAdmin" style="display: none">
+                    <div class="card mb-4">
+                      <div class="card-header pb-0">
+                        <h6>Profile</h6>
+                      </div>
+                      <div class="card-body px-0 pt-0 pb-2">
+                        <div class="table-responsive p-0">
+                          <table class="table align-items-center mb-0">
+                            <tbody>
+                              
+                            </tbody>
+                          </table>
+                        </div>
+                      </div>
+                    </div>
+                    </div>
           </div>
         </div>
         <footer class="footer pt-3  ">

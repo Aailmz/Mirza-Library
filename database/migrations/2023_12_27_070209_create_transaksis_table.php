@@ -13,11 +13,13 @@ return new class extends Migration
     {
         Schema::create('transaksis', function (Blueprint $table) {
             $table->id();
-            $table->foreignId('siswa_email')->constrained();
-            $table->foreignId('nama_siswa')->constrained(); 
-            $table->foreignId('kelas_siswa')->constrained(); 
+            $table->string('siswa_email')->constrained();
+            $table->foreignId('siswa_id')->constrained();
+            $table->string('nama_siswa')->constrained(); 
+            $table->string('kelas_siswa')->constrained(); 
             $table->foreignId('buku_id')->constrained();  
-            $table->foreignId('judul_buku')->constrained();  
+            $table->string('judul_buku')->constrained();  
+            $table->datetime('returned_at')->constrained();  
             $table->timestamps();
         });
     }

@@ -38,8 +38,8 @@
                         <div class="invalid-feedback">{{ $message }}</div> 
                     @enderror 
 
-                    <label for="role_status" class="form-label">Status</label> 
-                    <input autocomplete="off" type="" class="form-control @error('role_status') is-invalid @enderror" id="role_status" name="role_status" placeholder="Student" readonly> 
+                    <label for="role_status" class="form-label">Status: Student</label> 
+            
 
                 </div> 
             </div> 

@@ -20,7 +20,7 @@ class SiswaSeeder extends Seeder
 
         foreach ($data as $val){
             Siswa::insert([
-                'nama' => $val['nama'],
+                'nama' => $val['name'],
                 'kelas' => $val['kelas'],
                 'role_status' => $val['role_status'],
                 'email' => $val['email'],
